@@ -1,0 +1,9 @@
+{
+  "routerMap": [
+    {
+      "name": "test1",
+      "pageSourceFile": "src/main/ets/pages/test1.ets",
+      "buildFunction": "test1Builder"
+    }
+  ]
+}
