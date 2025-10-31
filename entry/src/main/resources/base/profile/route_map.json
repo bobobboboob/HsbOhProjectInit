@@ -1,7 +1,7 @@
 {
   "routerMap": [
     {
-      "name": "test1",
+      "name": "text1",
       "pageSourceFile": "src/main/ets/pages/test1.ets",
       "buildFunction": "test1Builder"
     }
