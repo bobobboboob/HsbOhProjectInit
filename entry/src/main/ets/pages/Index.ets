@@ -6,9 +6,12 @@ import { TabHome } from '../tabs/TabHome';
 import { TabMine } from '../tabs/TabMine';
 
 @Entry
-@Component
+@ComponentV2
 struct Index {
-  @State message: string = 'Hello World';
+  @Local message: string = 'Hello World';
+  aboutToAppear(): void {
+
+  }
 
   build() {
     Stack() {
